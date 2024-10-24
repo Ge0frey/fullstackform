@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER MANAGEMENT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" class="name" name="name" placeholder="Enter name" id="fullName">
+        <span class="error" id="nameError"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email">
+        <span class="error" id="emailError"></span>
+
+        <button class="btn" id="submit-btn">Submit</button>
+    </form>
+
+    <div id="userList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
