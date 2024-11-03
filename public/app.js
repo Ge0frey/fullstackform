@@ -72,6 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const userElement = document.createElement('div');
                 userElement.textContent = `${user.name} (${user.email})`;
                 userList.appendChild(userElement);
+                const dlt = document.createElement('button');
+                dlt.textContent = "Delete";
+                userElement.appendChild(dlt);
             });
         }
     }
